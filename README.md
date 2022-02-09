@@ -18,9 +18,20 @@ Anaconda - Python 3.7
 ### Step 6: 
 
 ## PROGRAM:
-
+~~~
+# Developed by : Ranjith D
+# Register no. : 21500662
+import sys
+count=0
+with open(sys.argv[1],'r') as f:
+    for line in f:
+        word = line.split()
+        count += len(word)
+        
+print("Number of words={}".format(count))
+~~~
 ### OUTPUT:
-
+![output]()
 
 
 ## RESULT:
